@@ -12,22 +12,22 @@ global.APIKeys = {
 }
 
 // Ganti Sewajarnya
-global.owner = ['62818617578']
-global.pengguna = 'Hanzz Genteng'
-global.premium = ['62818617578']
-global.pemilik = ['62818617578'] 
-global.ownernomer = '62818617578'
-global.ownername = 'Hamzz'
-global.botname = 'Hanzz - ＭＤ'
+global.owner = ['6285878313791']
+global.pengguna = '𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳'
+global.premium = ['6285878313791']
+global.pemilik = ['6285878313791'] 
+global.ownernomer = '6285878313791'
+global.ownername = '𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳'
+global.botname = 'Ｃｈｉｔａｎｄａ - ＭＤ'
 global.Prefix = 'Multi'
 global.meki = '6285878313791'
-global.footer = 'Hanzz | © 2022'
-global.ig = 'https://instagram.com/'
-global.email = 'aliyanrayhan572@gmail.com'
+global.footer = '𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳 | © 2022'
+global.ig = 'https://instagram.com/KiZakiXD'
+global.email = 'helloiamkizakixd@gmail.com'
 global.region = 'Indonesia'
-global.sc = 'https://m.youtube.com/'
-global.packname = '✨ Hanzz ✨' 
-global.author = 'Hanzz - ＭＤ' 
+global.sc = 'https://m.youtube.com/channel/UCHdipvk52k43KsPRenGpD0w'
+global.packname = '✨ 𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳 ✨' 
+global.author = 'Ｃｈｉｔａｎｄａ - ＭＤ' 
 global.sessionName = 'kizakixd'
 global.prefa = ['#','!','/','']
 global.sp = '» ' 

@@ -3257,7 +3257,7 @@ txt = ` Hai Kak ${pushname} 👋
 
 Saya ${botname} Yang Di Buat Oleh ${ownername}
 Untuk Menjadi Asisten Anda, Ada Yang Bisa Saya Bantu ?`
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: txt.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `Note : Jika Ada Masalah Atau Bug Pada Bot Segera Lapor Owner Untuk Dilakukan Perbaikan, Jadilah User Yang Smart.`, hydratedButtons: [{ urlButton: { displayText: 'YouTube', url: 'https://m.youtube.com/'} }, { callButton: { displayText: 'Owner Number', PhoneNumber: '+62818617578 } }, { quickReplyButton: { displayText: 'Command', id: '.allmenu', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: txt.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `Note : Jika Ada Masalah Atau Bug Pada Bot Segera Lapor Owner Untuk Dilakukan Perbaikan, Jadilah User Yang Smart.`, hydratedButtons: [{ urlButton: { displayText: 'YouTube', url: 'https://m.youtube.com/channel/UCHdipvk52k43KsPRenGpD0w'} }, { callButton: { displayText: 'Owner Number', PhoneNumber: '+6285878313791' } }, { quickReplyButton: { displayText: 'Command', id: '.allmenu', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
   zaki.relayMessage( m.chat, template.message, { messageId: template.key.id } )
 break
 case 'command': case 'allmenu': case 'listmenu': {
@@ -3646,12 +3646,12 @@ case 'owner': case 'creator': {
     + 'VERSION:3.0\n' 
     + 'N:;KiZakiXD;;;'
     + 'FN:KiZakiXD\n'
-    + 'ORG:𝙸 𝙰𝚖 Hanzz;\n' //Nama Kalian
-    + 'item1.TEL;type=CELL;type=VOICE;waid=6285878313791:+62 818-617-578\n' //Nomor Kalian
-    + 'item1.X-ABLabel:Creator Hanzzt\n' //Info Kalian
-    + 'item2.EMAIL;type=INTERNET:aliyanrayhan572@gmail.com\n' // Email Kalian
+    + 'ORG:𝙸 𝙰𝚖 𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳;\n' //Nama Kalian
+    + 'item1.TEL;type=CELL;type=VOICE;waid=6285878313791:+62 858-7831-3791\n' //Nomor Kalian
+    + 'item1.X-ABLabel:Creator Chitanda - MDt\n' //Info Kalian
+    + 'item2.EMAIL;type=INTERNET:helloiamkizakixd@gmail.com\n' // Email Kalian
     + 'item2.X-ABLabel:Email\n'
-    + 'item3.URL:https://instagram.com\n' //Ig Kalian Atau Web Kalian
+    + 'item3.URL:https://instagram.com/iamkizakixd\n' //Ig Kalian Atau Web Kalian
     + 'item3.X-ABLabel:Instagram\n'
     + 'item4.ADR:;;Indonesia;;;;\n' //Negara Kalian
     + 'item4.X-ABLabel:Region\n'
